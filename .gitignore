@@ -17,5 +17,6 @@ test-*/
 *.dll
 *.lib
 *.ilk
+*.exe
 *.pdb
 *.manifest
