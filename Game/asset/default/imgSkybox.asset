@@ -1,0 +1,17 @@
+{
+	"mGuid": 30523,
+	"type": 1453488171,
+	"mkPath": "data/textures/FullMoon/FullMoonRight2048.png;data/textures/FullMoon/FullMoonLeft2048.png;data/textures/FullMoon/FullMoonUp2048.png;data/textures/FullMoon/FullMoonDown2048.png;data/textures/FullMoon/FullMoonBack2048.png;data/textures/FullMoon/FullMoonFront2048.png",
+	"mInfo": 	{
+		"mMipLevels": 1,
+		"type": 1511946446,
+		"mType": 3,
+		"mFormatComponent": 23,
+		"mSamples": 1,
+		"mFormatType": 0,
+		"mUsage": 261,
+		"mTiling": 0,
+		"mArrayLayers": 6,
+		"mMemory": 1
+	}
+}

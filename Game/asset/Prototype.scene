@@ -1,0 +1,1682 @@
+{
+	"type": 3051318241,
+	"mName": "asset/Prototype",
+	"mOrder": 1,
+	"mRoot": 	{
+		"type": 866504460,
+		"mComponents": [
+		],
+		"mRootTransform": null,
+		"mChildren": [
+			{
+				"type": 3974360052,
+				"mComponents": [
+				],
+				"mRootTransform": 				{
+					"type": 3484360114,
+					"mIsEnabled": true,
+					"mTransform": 					{
+						"mRot": 						{
+							"mW": 1.000000,
+							"type": 2100484368,
+							"mX": 0.000000,
+							"mY": 0.000000,
+							"mZ": 0.000000
+						},
+						"type": 691411869,
+						"mScale": 						{
+							"type": 2103486758,
+							"mX": 1.000000,
+							"mY": 1.000000,
+							"mZ": 1.000000
+						},
+						"mPos": 						{
+							"type": 2103486758,
+							"mX": 0.000000,
+							"mY": 0.000000,
+							"mZ": 0.000000
+						}
+					},
+					"mIsStatic": false
+				},
+				"mChildren": [
+				],
+				"mName": "Skybox",
+				"mMaterialInstance": 				{
+					"type": 409688460,
+					"mMaterial": 					{
+						"mGuid": 13897,
+						"type": 4242429117
+					}
+				}
+			},
+			{
+				"type": 866504460,
+				"mComponents": [
+					{
+						"type": 1201946716,
+						"mIntensity": 						{
+							"mW": 0.800000,
+							"type": 547886823,
+							"mX": 1.000000,
+							"mY": 1.000000,
+							"mZ": 1.000000
+						},
+						"mIsEnabled": true,
+						"mColor": 						{
+							"mW": 0.000000,
+							"type": 824341296,
+							"mX": 0.600000,
+							"mY": 0.600000,
+							"mZ": 0.600000
+						}
+					}
+				],
+				"mRootTransform": 				{
+					"type": 3484360114,
+					"mIsEnabled": true,
+					"mTransform": 					{
+						"mRot": 						{
+							"mW": 0.853553,
+							"type": 2100484368,
+							"mX": 0.353554,
+							"mY": -0.353554,
+							"mZ": 0.146447
+						},
+						"type": 691411869,
+						"mScale": 						{
+							"type": 2103486758,
+							"mX": 0.100000,
+							"mY": 0.100000,
+							"mZ": 0.100000
+						},
+						"mPos": 						{
+							"type": 2103486758,
+							"mX": 5.000000,
+							"mY": 9.000000,
+							"mZ": 0.000000
+						}
+					},
+					"mIsStatic": false
+				},
+				"mChildren": [
+				],
+				"mName": "MainLight"
+			},
+			{
+				"type": 866504460,
+				"mComponents": [
+				],
+				"mRootTransform": 				{
+					"type": 3484360114,
+					"mIsEnabled": true,
+					"mTransform": 					{
+						"mRot": 						{
+							"mW": 1.000000,
+							"type": 2100484368,
+							"mX": 0.000000,
+							"mY": 0.000000,
+							"mZ": 0.000000
+						},
+						"type": 691411869,
+						"mScale": 						{
+							"type": 2103486758,
+							"mX": 1.000000,
+							"mY": 1.000000,
+							"mZ": 1.000000
+						},
+						"mPos": 						{
+							"type": 2103486758,
+							"mX": 0.000000,
+							"mY": 0.000000,
+							"mZ": 0.000000
+						}
+					},
+					"mIsStatic": true
+				},
+				"mChildren": [
+					{
+						"type": 866504460,
+						"mComponents": [
+							{
+								"mModel": 								{
+									"mGuid": 10327,
+									"type": 1427421495
+								},
+								"type": 2581575915,
+								"mIsEnabled": true,
+								"mMaterialInstance": 								{
+									"type": 409688460,
+									"mMaterial": 									{
+										"mGuid": 23182,
+										"type": 4242429117
+									}
+								}
+							},
+							{
+								"mHalfExtent": 								{
+									"type": 2103486758,
+									"mX": 0.075000,
+									"mY": 5.000000,
+									"mZ": 7.500000
+								},
+								"mLayer": 1,
+								"type": 4007060207,
+								"mLinearDamping": 1.000000,
+								"mMaterial": 								{
+									"mGuid": 24946,
+									"type": 947639418
+								},
+								"mIsEnabled": true,
+								"mDeltaPos": 								{
+									"type": 2103486758,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"mIsTrigger": false,
+								"mDeltaRot": 								{
+									"mW": 1.000000,
+									"type": 2100484368,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"mMass": 1.000000,
+								"mAngularDamping": 0.100000,
+								"mUseGravity": false,
+								"mFreeze": 0
+							}
+						],
+						"mRootTransform": 						{
+							"type": 3484360114,
+							"mIsEnabled": true,
+							"mTransform": 							{
+								"mRot": 								{
+									"mW": 1.000000,
+									"type": 2100484368,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"type": 691411869,
+								"mScale": 								{
+									"type": 2103486758,
+									"mX": 0.150000,
+									"mY": 10.000000,
+									"mZ": 15.000000
+								},
+								"mPos": 								{
+									"type": 2103486758,
+									"mX": 7.500000,
+									"mY": 5.000000,
+									"mZ": 0.000000
+								}
+							},
+							"mIsStatic": true
+						},
+						"mChildren": [
+						],
+						"mName": "Wall1"
+					},
+					{
+						"type": 866504460,
+						"mComponents": [
+							{
+								"mModel": 								{
+									"mGuid": 10327,
+									"type": 1427421495
+								},
+								"type": 2581575915,
+								"mIsEnabled": true,
+								"mMaterialInstance": 								{
+									"type": 409688460,
+									"mMaterial": 									{
+										"mGuid": 23182,
+										"type": 4242429117
+									}
+								}
+							},
+							{
+								"mHalfExtent": 								{
+									"type": 2103486758,
+									"mX": 0.075000,
+									"mY": 5.000000,
+									"mZ": 7.500000
+								},
+								"mLayer": 1,
+								"type": 4007060207,
+								"mLinearDamping": 1.000000,
+								"mMaterial": 								{
+									"mGuid": 24946,
+									"type": 947639418
+								},
+								"mIsEnabled": true,
+								"mDeltaPos": 								{
+									"type": 2103486758,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"mIsTrigger": false,
+								"mDeltaRot": 								{
+									"mW": 1.000000,
+									"type": 2100484368,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"mMass": 1.000000,
+								"mAngularDamping": 0.100000,
+								"mUseGravity": false,
+								"mFreeze": 0
+							}
+						],
+						"mRootTransform": 						{
+							"type": 3484360114,
+							"mIsEnabled": true,
+							"mTransform": 							{
+								"mRot": 								{
+									"mW": 1.000000,
+									"type": 2100484368,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"type": 691411869,
+								"mScale": 								{
+									"type": 2103486758,
+									"mX": 0.150000,
+									"mY": 10.000000,
+									"mZ": 15.000000
+								},
+								"mPos": 								{
+									"type": 2103486758,
+									"mX": -7.500000,
+									"mY": 5.000000,
+									"mZ": 0.000000
+								}
+							},
+							"mIsStatic": true
+						},
+						"mChildren": [
+						],
+						"mName": "Wall2"
+					},
+					{
+						"type": 866504460,
+						"mComponents": [
+							{
+								"mModel": 								{
+									"mGuid": 10327,
+									"type": 1427421495
+								},
+								"type": 2581575915,
+								"mIsEnabled": true,
+								"mMaterialInstance": 								{
+									"type": 409688460,
+									"mMaterial": 									{
+										"mGuid": 23182,
+										"type": 4242429117
+									}
+								}
+							},
+							{
+								"mHalfExtent": 								{
+									"type": 2103486758,
+									"mX": 7.500000,
+									"mY": 5.000000,
+									"mZ": 0.075000
+								},
+								"mLayer": 1,
+								"type": 4007060207,
+								"mLinearDamping": 1.000000,
+								"mMaterial": 								{
+									"mGuid": 24946,
+									"type": 947639418
+								},
+								"mIsEnabled": true,
+								"mDeltaPos": 								{
+									"type": 2103486758,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"mIsTrigger": false,
+								"mDeltaRot": 								{
+									"mW": 1.000000,
+									"type": 2100484368,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"mMass": 1.000000,
+								"mAngularDamping": 0.100000,
+								"mUseGravity": false,
+								"mFreeze": 0
+							}
+						],
+						"mRootTransform": 						{
+							"type": 3484360114,
+							"mIsEnabled": true,
+							"mTransform": 							{
+								"mRot": 								{
+									"mW": 1.000000,
+									"type": 2100484368,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"type": 691411869,
+								"mScale": 								{
+									"type": 2103486758,
+									"mX": 15.000000,
+									"mY": 10.000000,
+									"mZ": 0.150000
+								},
+								"mPos": 								{
+									"type": 2103486758,
+									"mX": 0.000000,
+									"mY": 5.000000,
+									"mZ": 7.500000
+								}
+							},
+							"mIsStatic": true
+						},
+						"mChildren": [
+						],
+						"mName": "Wall3"
+					},
+					{
+						"type": 866504460,
+						"mComponents": [
+							{
+								"mModel": 								{
+									"mGuid": 10327,
+									"type": 1427421495
+								},
+								"type": 2581575915,
+								"mIsEnabled": true,
+								"mMaterialInstance": 								{
+									"type": 409688460,
+									"mMaterial": 									{
+										"mGuid": 23182,
+										"type": 4242429117
+									}
+								}
+							},
+							{
+								"mHalfExtent": 								{
+									"type": 2103486758,
+									"mX": 7.500000,
+									"mY": 5.000000,
+									"mZ": 0.075000
+								},
+								"mLayer": 1,
+								"type": 4007060207,
+								"mLinearDamping": 1.000000,
+								"mMaterial": 								{
+									"mGuid": 24946,
+									"type": 947639418
+								},
+								"mIsEnabled": true,
+								"mDeltaPos": 								{
+									"type": 2103486758,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"mIsTrigger": false,
+								"mDeltaRot": 								{
+									"mW": 1.000000,
+									"type": 2100484368,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"mMass": 1.000000,
+								"mAngularDamping": 0.100000,
+								"mUseGravity": false,
+								"mFreeze": 0
+							}
+						],
+						"mRootTransform": 						{
+							"type": 3484360114,
+							"mIsEnabled": true,
+							"mTransform": 							{
+								"mRot": 								{
+									"mW": 1.000000,
+									"type": 2100484368,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"type": 691411869,
+								"mScale": 								{
+									"type": 2103486758,
+									"mX": 15.000000,
+									"mY": 10.000000,
+									"mZ": 0.150000
+								},
+								"mPos": 								{
+									"type": 2103486758,
+									"mX": 0.000000,
+									"mY": 5.000000,
+									"mZ": -7.500000
+								}
+							},
+							"mIsStatic": true
+						},
+						"mChildren": [
+						],
+						"mName": "Wall4"
+					},
+					{
+						"type": 866504460,
+						"mComponents": [
+							{
+								"mModel": 								{
+									"mGuid": 10327,
+									"type": 1427421495
+								},
+								"type": 2581575915,
+								"mIsEnabled": true,
+								"mMaterialInstance": 								{
+									"type": 409688460,
+									"mMaterial": 									{
+										"mGuid": 23182,
+										"type": 4242429117
+									}
+								}
+							},
+							{
+								"mHalfExtent": 								{
+									"type": 2103486758,
+									"mX": 0.750000,
+									"mY": 0.075000,
+									"mZ": 0.750000
+								},
+								"mLayer": 1,
+								"type": 4007060207,
+								"mLinearDamping": 1.000000,
+								"mMaterial": 								{
+									"mGuid": 24946,
+									"type": 947639418
+								},
+								"mIsEnabled": true,
+								"mDeltaPos": 								{
+									"type": 2103486758,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"mIsTrigger": false,
+								"mDeltaRot": 								{
+									"mW": 1.000000,
+									"type": 2100484368,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"mMass": 1.000000,
+								"mAngularDamping": 0.100000,
+								"mUseGravity": false,
+								"mFreeze": 0
+							}
+						],
+						"mRootTransform": 						{
+							"type": 3484360114,
+							"mIsEnabled": true,
+							"mTransform": 							{
+								"mRot": 								{
+									"mW": 1.000000,
+									"type": 2100484368,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"type": 691411869,
+								"mScale": 								{
+									"type": 2103486758,
+									"mX": 1.500000,
+									"mY": 0.150000,
+									"mZ": 1.500000
+								},
+								"mPos": 								{
+									"type": 2103486758,
+									"mX": 2.000000,
+									"mY": 1.000000,
+									"mZ": 0.000000
+								}
+							},
+							"mIsStatic": true
+						},
+						"mChildren": [
+						],
+						"mName": "Platform1"
+					},
+					{
+						"type": 866504460,
+						"mComponents": [
+							{
+								"mModel": 								{
+									"mGuid": 10327,
+									"type": 1427421495
+								},
+								"type": 2581575915,
+								"mIsEnabled": true,
+								"mMaterialInstance": 								{
+									"type": 409688460,
+									"mMaterial": 									{
+										"mGuid": 23182,
+										"type": 4242429117
+									}
+								}
+							},
+							{
+								"mHalfExtent": 								{
+									"type": 2103486758,
+									"mX": 0.750000,
+									"mY": 0.075000,
+									"mZ": 0.750000
+								},
+								"mLayer": 1,
+								"type": 4007060207,
+								"mLinearDamping": 1.000000,
+								"mMaterial": 								{
+									"mGuid": 24946,
+									"type": 947639418
+								},
+								"mIsEnabled": true,
+								"mDeltaPos": 								{
+									"type": 2103486758,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"mIsTrigger": false,
+								"mDeltaRot": 								{
+									"mW": 1.000000,
+									"type": 2100484368,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"mMass": 1.000000,
+								"mAngularDamping": 0.100000,
+								"mUseGravity": false,
+								"mFreeze": 0
+							}
+						],
+						"mRootTransform": 						{
+							"type": 3484360114,
+							"mIsEnabled": true,
+							"mTransform": 							{
+								"mRot": 								{
+									"mW": 1.000000,
+									"type": 2100484368,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"type": 691411869,
+								"mScale": 								{
+									"type": 2103486758,
+									"mX": 1.500000,
+									"mY": 0.150000,
+									"mZ": 1.500000
+								},
+								"mPos": 								{
+									"type": 2103486758,
+									"mX": 4.000000,
+									"mY": 2.000000,
+									"mZ": 1.500000
+								}
+							},
+							"mIsStatic": true
+						},
+						"mChildren": [
+						],
+						"mName": "Platform2"
+					},
+					{
+						"type": 866504460,
+						"mComponents": [
+							{
+								"mModel": 								{
+									"mGuid": 10327,
+									"type": 1427421495
+								},
+								"type": 2581575915,
+								"mIsEnabled": true,
+								"mMaterialInstance": 								{
+									"type": 409688460,
+									"mMaterial": 									{
+										"mGuid": 23182,
+										"type": 4242429117
+									}
+								}
+							},
+							{
+								"mHalfExtent": 								{
+									"type": 2103486758,
+									"mX": 1.500000,
+									"mY": 0.075000,
+									"mZ": 1.500000
+								},
+								"mLayer": 1,
+								"type": 4007060207,
+								"mLinearDamping": 1.000000,
+								"mMaterial": 								{
+									"mGuid": 24946,
+									"type": 947639418
+								},
+								"mIsEnabled": true,
+								"mDeltaPos": 								{
+									"type": 2103486758,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"mIsTrigger": false,
+								"mDeltaRot": 								{
+									"mW": 1.000000,
+									"type": 2100484368,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"mMass": 1.000000,
+								"mAngularDamping": 0.100000,
+								"mUseGravity": false,
+								"mFreeze": 0
+							}
+						],
+						"mRootTransform": 						{
+							"type": 3484360114,
+							"mIsEnabled": true,
+							"mTransform": 							{
+								"mRot": 								{
+									"mW": 1.000000,
+									"type": 2100484368,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"type": 691411869,
+								"mScale": 								{
+									"type": 2103486758,
+									"mX": 3.000000,
+									"mY": 0.150000,
+									"mZ": 3.000000
+								},
+								"mPos": 								{
+									"type": 2103486758,
+									"mX": 4.500000,
+									"mY": 3.000000,
+									"mZ": 4.500000
+								}
+							},
+							"mIsStatic": true
+						},
+						"mChildren": [
+						],
+						"mName": "Platform3"
+					},
+					{
+						"type": 866504460,
+						"mComponents": [
+							{
+								"mModel": 								{
+									"mGuid": 10327,
+									"type": 1427421495
+								},
+								"type": 2581575915,
+								"mIsEnabled": true,
+								"mMaterialInstance": 								{
+									"type": 409688460,
+									"mMaterial": 									{
+										"mGuid": 23182,
+										"type": 4242429117
+									}
+								}
+							},
+							{
+								"mHalfExtent": 								{
+									"type": 2103486758,
+									"mX": 0.750000,
+									"mY": 0.075000,
+									"mZ": 0.750000
+								},
+								"mLayer": 1,
+								"type": 4007060207,
+								"mLinearDamping": 1.000000,
+								"mMaterial": 								{
+									"mGuid": 24946,
+									"type": 947639418
+								},
+								"mIsEnabled": true,
+								"mDeltaPos": 								{
+									"type": 2103486758,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"mIsTrigger": false,
+								"mDeltaRot": 								{
+									"mW": 1.000000,
+									"type": 2100484368,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"mMass": 1.000000,
+								"mAngularDamping": 0.100000,
+								"mUseGravity": false,
+								"mFreeze": 0
+							}
+						],
+						"mRootTransform": 						{
+							"type": 3484360114,
+							"mIsEnabled": true,
+							"mTransform": 							{
+								"mRot": 								{
+									"mW": 1.000000,
+									"type": 2100484368,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"type": 691411869,
+								"mScale": 								{
+									"type": 2103486758,
+									"mX": 1.500000,
+									"mY": 0.150000,
+									"mZ": 1.500000
+								},
+								"mPos": 								{
+									"type": 2103486758,
+									"mX": -2.000000,
+									"mY": 1.000000,
+									"mZ": 0.000000
+								}
+							},
+							"mIsStatic": true
+						},
+						"mChildren": [
+						],
+						"mName": "PlatformReverse1"
+					},
+					{
+						"type": 866504460,
+						"mComponents": [
+							{
+								"mModel": 								{
+									"mGuid": 10327,
+									"type": 1427421495
+								},
+								"type": 2581575915,
+								"mIsEnabled": true,
+								"mMaterialInstance": 								{
+									"type": 409688460,
+									"mMaterial": 									{
+										"mGuid": 23182,
+										"type": 4242429117
+									}
+								}
+							},
+							{
+								"mHalfExtent": 								{
+									"type": 2103486758,
+									"mX": 0.750000,
+									"mY": 0.075000,
+									"mZ": 0.750000
+								},
+								"mLayer": 1,
+								"type": 4007060207,
+								"mLinearDamping": 1.000000,
+								"mMaterial": 								{
+									"mGuid": 24946,
+									"type": 947639418
+								},
+								"mIsEnabled": true,
+								"mDeltaPos": 								{
+									"type": 2103486758,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"mIsTrigger": false,
+								"mDeltaRot": 								{
+									"mW": 1.000000,
+									"type": 2100484368,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"mMass": 1.000000,
+								"mAngularDamping": 0.100000,
+								"mUseGravity": false,
+								"mFreeze": 0
+							}
+						],
+						"mRootTransform": 						{
+							"type": 3484360114,
+							"mIsEnabled": true,
+							"mTransform": 							{
+								"mRot": 								{
+									"mW": 1.000000,
+									"type": 2100484368,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"type": 691411869,
+								"mScale": 								{
+									"type": 2103486758,
+									"mX": 1.500000,
+									"mY": 0.150000,
+									"mZ": 1.500000
+								},
+								"mPos": 								{
+									"type": 2103486758,
+									"mX": -4.000000,
+									"mY": 2.000000,
+									"mZ": -1.500000
+								}
+							},
+							"mIsStatic": true
+						},
+						"mChildren": [
+						],
+						"mName": "PlatformReverse2"
+					},
+					{
+						"type": 866504460,
+						"mComponents": [
+							{
+								"mModel": 								{
+									"mGuid": 10327,
+									"type": 1427421495
+								},
+								"type": 2581575915,
+								"mIsEnabled": true,
+								"mMaterialInstance": 								{
+									"type": 409688460,
+									"mMaterial": 									{
+										"mGuid": 23182,
+										"type": 4242429117
+									}
+								}
+							},
+							{
+								"mHalfExtent": 								{
+									"type": 2103486758,
+									"mX": 7.500000,
+									"mY": 0.050000,
+									"mZ": 7.500000
+								},
+								"mLayer": 1,
+								"type": 4007060207,
+								"mLinearDamping": 1.000000,
+								"mMaterial": 								{
+									"mGuid": 24946,
+									"type": 947639418
+								},
+								"mIsEnabled": true,
+								"mDeltaPos": 								{
+									"type": 2103486758,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"mIsTrigger": false,
+								"mDeltaRot": 								{
+									"mW": 1.000000,
+									"type": 2100484368,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"mMass": 1.000000,
+								"mAngularDamping": 0.100000,
+								"mUseGravity": false,
+								"mFreeze": 0
+							}
+						],
+						"mRootTransform": 						{
+							"type": 3484360114,
+							"mIsEnabled": true,
+							"mTransform": 							{
+								"mRot": 								{
+									"mW": 1.000000,
+									"type": 2100484368,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"type": 691411869,
+								"mScale": 								{
+									"type": 2103486758,
+									"mX": 15.000000,
+									"mY": 0.100000,
+									"mZ": 15.000000
+								},
+								"mPos": 								{
+									"type": 2103486758,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								}
+							},
+							"mIsStatic": true
+						},
+						"mChildren": [
+						],
+						"mName": "Floor"
+					},
+					{
+						"type": 866504460,
+						"mComponents": [
+							{
+								"mModel": 								{
+									"mGuid": 10327,
+									"type": 1427421495
+								},
+								"type": 2581575915,
+								"mIsEnabled": true,
+								"mMaterialInstance": 								{
+									"type": 409688460,
+									"mMaterial": 									{
+										"mGuid": 23182,
+										"type": 4242429117
+									}
+								}
+							},
+							{
+								"mHalfExtent": 								{
+									"type": 2103486758,
+									"mX": 1.500000,
+									"mY": 0.075000,
+									"mZ": 1.500000
+								},
+								"mLayer": 1,
+								"type": 4007060207,
+								"mLinearDamping": 1.000000,
+								"mMaterial": 								{
+									"mGuid": 24946,
+									"type": 947639418
+								},
+								"mIsEnabled": true,
+								"mDeltaPos": 								{
+									"type": 2103486758,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"mIsTrigger": false,
+								"mDeltaRot": 								{
+									"mW": 1.000000,
+									"type": 2100484368,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"mMass": 1.000000,
+								"mAngularDamping": 0.100000,
+								"mUseGravity": true,
+								"mFreeze": 0
+							}
+						],
+						"mRootTransform": 						{
+							"type": 3484360114,
+							"mIsEnabled": true,
+							"mTransform": 							{
+								"mRot": 								{
+									"mW": 1.000000,
+									"type": 2100484368,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"type": 691411869,
+								"mScale": 								{
+									"type": 2103486758,
+									"mX": 3.000000,
+									"mY": 0.150000,
+									"mZ": 3.000000
+								},
+								"mPos": 								{
+									"type": 2103486758,
+									"mX": -4.500000,
+									"mY": 3.000000,
+									"mZ": -4.500000
+								}
+							},
+							"mIsStatic": true
+						},
+						"mChildren": [
+						],
+						"mName": "PlatformReverse3"
+					},
+					{
+						"type": 866504460,
+						"mComponents": [
+							{
+								"mModel": 								{
+									"mGuid": 2742,
+									"type": 1427421495
+								},
+								"type": 2581575915,
+								"mIsEnabled": true,
+								"mMaterialInstance": 								{
+									"type": 409688460,
+									"mMaterial": 									{
+										"mGuid": 24276,
+										"type": 4242429117
+									}
+								}
+							},
+							{
+								"type": 1796953496,
+								"mIntensity": 								{
+									"mW": 1.000000,
+									"type": 547886823,
+									"mX": 0.500000,
+									"mY": 0.500000,
+									"mZ": 1.000000
+								},
+								"mIsEnabled": true,
+								"mColor": 								{
+									"mW": 0.000000,
+									"type": 824341296,
+									"mX": 0.200000,
+									"mY": 0.100000,
+									"mZ": 0.200000
+								}
+							},
+							{
+								"type": 2027681746,
+								"mIsEnabled": true
+							},
+							{
+								"mLayer": 2,
+								"type": 1242394093,
+								"mLinearDamping": 1.000000,
+								"mMaterial": 								{
+									"mGuid": 24946,
+									"type": 947639418
+								},
+								"mIsEnabled": true,
+								"mDeltaPos": 								{
+									"type": 2103486758,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"mIsTrigger": true,
+								"mDeltaRot": 								{
+									"mW": 1.000000,
+									"type": 2100484368,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"mMass": 1.000000,
+								"mAngularDamping": 0.100000,
+								"mUseGravity": false,
+								"mFreeze": 0,
+								"mRadius": 0.700000
+							},
+							{
+								"type": 1560060765,
+								"mIsEnabled": true
+							}
+						],
+						"mRootTransform": 						{
+							"type": 3484360114,
+							"mIsEnabled": true,
+							"mTransform": 							{
+								"mRot": 								{
+									"mW": 1.000000,
+									"type": 2100484368,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"type": 691411869,
+								"mScale": 								{
+									"type": 2103486758,
+									"mX": 1.000000,
+									"mY": 1.000000,
+									"mZ": 1.000000
+								},
+								"mPos": 								{
+									"type": 2103486758,
+									"mX": -6.000000,
+									"mY": 5.000000,
+									"mZ": -6.000000
+								}
+							},
+							"mIsStatic": false
+						},
+						"mChildren": [
+						],
+						"mName": "Goal"
+					},
+					{
+						"type": 866504460,
+						"mComponents": [
+							{
+								"mHalfExtent": 								{
+									"type": 2103486758,
+									"mX": 50.000000,
+									"mY": 0.500000,
+									"mZ": 50.000000
+								},
+								"mLayer": 1,
+								"type": 4007060207,
+								"mLinearDamping": 1.000000,
+								"mMaterial": 								{
+									"mGuid": 24946,
+									"type": 947639418
+								},
+								"mIsEnabled": true,
+								"mDeltaPos": 								{
+									"type": 2103486758,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"mIsTrigger": true,
+								"mDeltaRot": 								{
+									"mW": 1.000000,
+									"type": 2100484368,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"mMass": 1.000000,
+								"mAngularDamping": 0.100000,
+								"mUseGravity": false,
+								"mFreeze": 0
+							},
+							{
+								"type": 895962460,
+								"mIsEnabled": true
+							}
+						],
+						"mRootTransform": 						{
+							"type": 3484360114,
+							"mIsEnabled": true,
+							"mTransform": 							{
+								"mRot": 								{
+									"mW": 1.000000,
+									"type": 2100484368,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"type": 691411869,
+								"mScale": 								{
+									"type": 2103486758,
+									"mX": 100.000000,
+									"mY": 1.000000,
+									"mZ": 100.000000
+								},
+								"mPos": 								{
+									"type": 2103486758,
+									"mX": 0.000000,
+									"mY": -20.000000,
+									"mZ": 0.000000
+								}
+							},
+							"mIsStatic": true
+						},
+						"mChildren": [
+						],
+						"mName": "DeathZone"
+					}
+				],
+				"mName": "Map"
+			},
+			{
+				"type": 866504460,
+				"mComponents": [
+					{
+						"mModel": 						{
+							"mGuid": 10327,
+							"type": 1427421495
+						},
+						"type": 2581575915,
+						"mIsEnabled": true,
+						"mMaterialInstance": 						{
+							"type": 409688460,
+							"mMaterial": 							{
+								"mGuid": 17435,
+								"type": 4242429117
+							}
+						}
+					},
+					{
+						"mHalfExtent": 						{
+							"type": 2103486758,
+							"mX": 0.250000,
+							"mY": 0.250000,
+							"mZ": 0.250000
+						},
+						"mLayer": 4,
+						"type": 4007060207,
+						"mLinearDamping": 1.000000,
+						"mMaterial": 						{
+							"mGuid": 24946,
+							"type": 947639418
+						},
+						"mIsEnabled": true,
+						"mDeltaPos": 						{
+							"type": 2103486758,
+							"mX": 0.000000,
+							"mY": 0.000000,
+							"mZ": 0.000000
+						},
+						"mIsTrigger": false,
+						"mDeltaRot": 						{
+							"mW": 1.000000,
+							"type": 2100484368,
+							"mX": 0.000000,
+							"mY": 0.000000,
+							"mZ": 0.000000
+						},
+						"mMass": 1.000000,
+						"mAngularDamping": 0.100000,
+						"mUseGravity": true,
+						"mFreeze": 0
+					}
+				],
+				"mRootTransform": 				{
+					"type": 3484360114,
+					"mIsEnabled": true,
+					"mTransform": 					{
+						"mRot": 						{
+							"mW": 1.000000,
+							"type": 2100484368,
+							"mX": 0.000000,
+							"mY": 0.000000,
+							"mZ": 0.000000
+						},
+						"type": 691411869,
+						"mScale": 						{
+							"type": 2103486758,
+							"mX": 0.500000,
+							"mY": 0.500000,
+							"mZ": 0.500000
+						},
+						"mPos": 						{
+							"type": 2103486758,
+							"mX": 4.500000,
+							"mY": 3.350000,
+							"mZ": 5.000000
+						}
+					},
+					"mIsStatic": false
+				},
+				"mChildren": [
+				],
+				"mName": "KeyBox"
+			},
+			{
+				"type": 866504460,
+				"mComponents": [
+					{
+						"type": 1796953496,
+						"mIntensity": 						{
+							"mW": 1.000000,
+							"type": 547886823,
+							"mX": 1.000000,
+							"mY": 1.000000,
+							"mZ": 1.000000
+						},
+						"mIsEnabled": true,
+						"mColor": 						{
+							"mW": 0.000000,
+							"type": 824341296,
+							"mX": 0.700000,
+							"mY": 0.200000,
+							"mZ": 0.200000
+						}
+					}
+				],
+				"mRootTransform": 				{
+					"type": 3484360114,
+					"mIsEnabled": true,
+					"mTransform": 					{
+						"mRot": 						{
+							"mW": 1.000000,
+							"type": 2100484368,
+							"mX": 0.000000,
+							"mY": 0.000000,
+							"mZ": 0.000000
+						},
+						"type": 691411869,
+						"mScale": 						{
+							"type": 2103486758,
+							"mX": 1.000000,
+							"mY": 1.000000,
+							"mZ": 1.000000
+						},
+						"mPos": 						{
+							"type": 2103486758,
+							"mX": 4.500000,
+							"mY": 5.000000,
+							"mZ": 4.500000
+						}
+					},
+					"mIsStatic": false
+				},
+				"mChildren": [
+				],
+				"mName": "KeyLight"
+			},
+			{
+				"type": 866504460,
+				"mComponents": [
+					{
+						"type": 1796953496,
+						"mIntensity": 						{
+							"mW": 1.000000,
+							"type": 547886823,
+							"mX": 1.000000,
+							"mY": 1.000000,
+							"mZ": 1.000000
+						},
+						"mIsEnabled": true,
+						"mColor": 						{
+							"mW": 0.000000,
+							"type": 824341296,
+							"mX": 0.200000,
+							"mY": 0.700000,
+							"mZ": 0.200000
+						}
+					}
+				],
+				"mRootTransform": 				{
+					"type": 3484360114,
+					"mIsEnabled": true,
+					"mTransform": 					{
+						"mRot": 						{
+							"mW": 1.000000,
+							"type": 2100484368,
+							"mX": 0.000000,
+							"mY": 0.000000,
+							"mZ": 0.000000
+						},
+						"type": 691411869,
+						"mScale": 						{
+							"type": 2103486758,
+							"mX": 1.000000,
+							"mY": 1.000000,
+							"mZ": 1.000000
+						},
+						"mPos": 						{
+							"type": 2103486758,
+							"mX": -4.500000,
+							"mY": 5.000000,
+							"mZ": -4.500000
+						}
+					},
+					"mIsStatic": false
+				},
+				"mChildren": [
+				],
+				"mName": "GoalLight"
+			},
+			{
+				"type": 866504460,
+				"mComponents": [
+					{
+						"type": 1774999559,
+						"mAngularSpeed": 35.000000,
+						"mIsEnabled": true,
+						"mSpeed": 4.000000,
+						"mJumpHeight": 25.000000
+					},
+					{
+						"mModel": 						{
+							"mGuid": 20472,
+							"type": 741567660
+						},
+						"type": 3096624152,
+						"mIsEnabled": true,
+						"mMaterialInstance": 						{
+							"type": 409688460,
+							"mMaterial": 							{
+								"mGuid": 30848,
+								"type": 4242429117
+							}
+						}
+					},
+					{
+						"mLayer": 1,
+						"type": 3078825523,
+						"mLinearDamping": 1.000000,
+						"mMaterial": 						{
+							"mGuid": 24946,
+							"type": 947639418
+						},
+						"mIsEnabled": true,
+						"mDeltaPos": 						{
+							"type": 2103486758,
+							"mX": 0.000000,
+							"mY": 0.600000,
+							"mZ": 0.000000
+						},
+						"mIsTrigger": false,
+						"mDeltaRot": 						{
+							"mW": 0.707107,
+							"type": 2100484368,
+							"mX": 0.000000,
+							"mY": 0.000000,
+							"mZ": 0.707107
+						},
+						"mMass": 10.000000,
+						"mAngularDamping": 0.500000,
+						"mUseGravity": true,
+						"mFreeze": 56,
+						"mRadius": 0.250000,
+						"mHalfHeight": 0.350000
+					}
+				],
+				"mRootTransform": 				{
+					"type": 3484360114,
+					"mIsEnabled": true,
+					"mTransform": 					{
+						"mRot": 						{
+							"mW": 1.000000,
+							"type": 2100484368,
+							"mX": 0.000000,
+							"mY": 0.000000,
+							"mZ": 0.000000
+						},
+						"type": 691411869,
+						"mScale": 						{
+							"type": 2103486758,
+							"mX": 0.700000,
+							"mY": 0.700000,
+							"mZ": 0.700000
+						},
+						"mPos": 						{
+							"type": 2103486758,
+							"mX": 0.000000,
+							"mY": 0.100000,
+							"mZ": 0.000000
+						}
+					},
+					"mIsStatic": false
+				},
+				"mChildren": [
+					{
+						"type": 866504460,
+						"mComponents": [
+							{
+								"type": 454228019,
+								"mIsEnabled": true,
+								"mSpeed": 30.000000,
+								"mMaxAngleX": 25.000000
+							},
+							{
+								"type": 2206675295,
+								"mFar": 100.000000,
+								"mFovh": 45.000000,
+								"mIsEnabled": true,
+								"mNear": 0.100000,
+								"mRatio": 1.777778
+							}
+						],
+						"mRootTransform": 						{
+							"type": 3484360114,
+							"mIsEnabled": true,
+							"mTransform": 							{
+								"mRot": 								{
+									"mW": 1.000000,
+									"type": 2100484368,
+									"mX": 0.000000,
+									"mY": 0.000000,
+									"mZ": 0.000000
+								},
+								"type": 691411869,
+								"mScale": 								{
+									"type": 2103486758,
+									"mX": 1.000000,
+									"mY": 1.000000,
+									"mZ": 1.000000
+								},
+								"mPos": 								{
+									"type": 2103486758,
+									"mX": 0.000000,
+									"mY": 1.450000,
+									"mZ": 0.155000
+								}
+							},
+							"mIsStatic": false
+						},
+						"mChildren": [
+						],
+						"mName": "Camera"
+					}
+				],
+				"mName": "Player"
+			},
+			{
+				"type": 866504460,
+				"mComponents": [
+					{
+						"type": 438799185,
+						"mElements": [
+							{
+								"mFont": 								{
+									"mGuid": 27911,
+									"type": 1752349767
+								},
+								"type": 2230251471,
+								"mInternalAnchor": 4,
+								"mExternalAnchor": 4,
+								"mPosition": 								{
+									"type": 3659086693,
+									"mX": 0.355194,
+									"mY": 0.100000
+								},
+								"mMaterial": 								{
+									"mGuid": 7874,
+									"type": 4242429117
+								},
+								"mIsEnabled": true,
+								"mSize": 								{
+									"type": 3659086693,
+									"mX": 0.896136,
+									"mY": 1.000000
+								},
+								"mColor": 								{
+									"mW": 0.700000,
+									"type": 824341296,
+									"mX": 1.000000,
+									"mY": 0.000000,
+									"mZ": 1.000000
+								},
+								"mText": "Victory",
+								"mFontSize": 1.000000,
+								"mFitToSize": false
+							}
+						],
+						"mRefScreen": 						{
+							"type": 2248410781,
+							"mX": 828,
+							"mY": 743
+						},
+						"mIsEnabled": false,
+						"mSpace": 0
+					}
+				],
+				"mRootTransform": null,
+				"mChildren": [
+				],
+				"mName": "victory"
+			},
+			{
+				"type": 866504460,
+				"mComponents": [
+					{
+						"type": 438799185,
+						"mElements": [
+							{
+								"mMaterialInst": 								{
+									"type": 409688460,
+									"mMaterial": 									{
+										"mGuid": 18831,
+										"type": 4242429117
+									}
+								},
+								"type": 818265409,
+								"mInternalAnchor": 0,
+								"mExternalAnchor": 0,
+								"mTexture": 								{
+									"mGuid": 7282,
+									"type": 2618233887
+								},
+								"mPosition": 								{
+									"type": 3659086693,
+									"mX": 0.480675,
+									"mY": 0.478465
+								},
+								"mIsEnabled": true,
+								"mSize": 								{
+									"type": 3659086693,
+									"mX": 0.038647,
+									"mY": 0.043068
+								},
+								"mColor": 								{
+									"mW": 1.000000,
+									"type": 824341296,
+									"mX": 1.000000,
+									"mY": 0.000000,
+									"mZ": 1.000000
+								}
+							}
+						],
+						"mRefScreen": 						{
+							"type": 2248410781,
+							"mX": 828,
+							"mY": 743
+						},
+						"mIsEnabled": true,
+						"mSpace": 0
+					}
+				],
+				"mRootTransform": null,
+				"mChildren": [
+				],
+				"mName": "crosshair"
+			}
+		],
+		"mName": "Root"
+	}
+}

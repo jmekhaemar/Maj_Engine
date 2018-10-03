@@ -1,0 +1,17 @@
+{
+	"mGuid": 30836,
+	"type": 1453488171,
+	"mkPath": "data/textures/ironman.norm.png",
+	"mInfo": 	{
+		"mMipLevels": 1,
+		"type": 1452408200,
+		"mType": 1,
+		"mFormatComponent": 23,
+		"mSamples": 1,
+		"mFormatType": 0,
+		"mUsage": 261,
+		"mTiling": 0,
+		"mArrayLayers": 1,
+		"mMemory": 1
+	}
+}

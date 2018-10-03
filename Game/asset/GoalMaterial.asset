@@ -1,0 +1,154 @@
+{
+	"mGuid": 24276,
+	"type": 3054400567,
+	"mInfo": 	{
+		"type": 3831418135,
+		"mSubpassIndex": 0,
+		"mSortingOrder": 127,
+		"mShaders": [
+			{
+				"type": 2047948735,
+				"mPath": "data/shaders/compiled/wall.vert.spv",
+				"mShaderStage": 1
+			},
+			{
+				"type": 2047948735,
+				"mPath": "data/shaders/compiled/wall.frag.spv",
+				"mShaderStage": 16
+			}
+		],
+		"mPipelineState": 		{
+			"mPolygonMode": 0,
+			"mDepthClampEnabled": false,
+			"type": 57232831,
+			"mTopology": 3,
+			"mBindings": [
+				{
+					"type": 2142742529,
+					"mAttributes": [
+						{
+							"type": 1147233754,
+							"mFormatComponent": 34,
+							"mFormatType": 7,
+							"mSize": 12
+						},
+						{
+							"type": 1147233754,
+							"mFormatComponent": 32,
+							"mFormatType": 7,
+							"mSize": 8
+						},
+						{
+							"type": 1147233754,
+							"mFormatComponent": 34,
+							"mFormatType": 7,
+							"mSize": 12
+						},
+						{
+							"type": 1147233754,
+							"mFormatComponent": 34,
+							"mFormatType": 7,
+							"mSize": 12
+						}
+					],
+					"mBinding": 0,
+					"mInputRate": 0
+				}
+			],
+			"mPrimitiveRestartEnabled": false,
+			"mSampleState": 			{
+				"type": 438264683,
+				"mSampleCount": 1,
+				"mMinSampleShading": 1.000000,
+				"mSampleMaskEnabled": false,
+				"mSampleMask": 0
+			},
+			"mCullMode": 2,
+			"mDepthBias": 			{
+				"type": 1793050236,
+				"mClamp": 0.000000,
+				"mConstantFactor": 0.000000,
+				"mSlopeFactor": 0.000000
+			},
+			"mAlphaToCoverageEnabled": false,
+			"mAlphaToOneEnabled": false,
+			"mDepthTestEnabled": true,
+			"mDepthWriteEnabled": true,
+			"mDepthCompareOp": 5,
+			"mDepthBound": 			{
+				"type": 855341141,
+				"mMin": 0.000000,
+				"mMax": 1.000000
+			},
+			"mFrontStencil": 			{
+				"mReference": 0,
+				"type": 3407053627,
+				"mWriteMask": 0,
+				"mCompareMask": 0,
+				"mFailOp": 0,
+				"mPassOp": 0,
+				"mDepthFailOp": 0,
+				"mCompareOp": 0
+			},
+			"mBackStencil": 			{
+				"mReference": 0,
+				"type": 3407053627,
+				"mWriteMask": 0,
+				"mCompareMask": 0,
+				"mFailOp": 0,
+				"mPassOp": 0,
+				"mDepthFailOp": 0,
+				"mCompareOp": 0
+			},
+			"mLogicOp": 1,
+			"mColorBlend": 			{
+				"type": 713619822,
+				"mSrcFactor": 2,
+				"mBlendOp": 0,
+				"mDstFactor": 5
+			},
+			"mAlphaBlend": 			{
+				"type": 713619822,
+				"mSrcFactor": 1,
+				"mBlendOp": 0,
+				"mDstFactor": 0
+			},
+			"mColorMask": 15,
+			"mBlendConstants": 			{
+				"mG": 0.000000,
+				"type": 625440727,
+				"mB": 0.000000,
+				"mR": 0.000000,
+				"mA": 0.000000
+			}
+		}
+	},
+	"mMaterialLayout": 	{
+		"mGuid": 29006,
+		"type": 1180163387
+	},
+	"mTextures": [
+		{
+			"key": 			{
+				"type": 1394612402,
+				"mSet": 1,
+				"mBinding": 1
+			},
+			"value": 			{
+				"mGuid": 3093,
+				"type": 2618233887
+			}
+		},
+		{
+			"key": 			{
+				"type": 1394612402,
+				"mSet": 1,
+				"mBinding": 2
+			},
+			"value": 			{
+				"mGuid": 3093,
+				"type": 2618233887
+			}
+		}
+	]
+}
