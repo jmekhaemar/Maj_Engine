@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{7BD7349C-2C32-4525-8107-B6CB3E050E96}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)lib/FBX/include;$(SolutionDir)lib/freetype/include;$(SolutionDir)lib/glfw/include;$(SolutionDir)lib/physX/include;$(SolutionDir)lib/stb-master/include;$(SolutionDir)lib/Vulkan/include;$(ProjectDir)include/engine;$(ProjectDir)include/ww;$(ProjectDir)include/rhi;$(ProjectDir)include/utils;$(ProjectDir)include/maths;$(ProjectDir)include/rhi/vk;$(ProjectDir)include/game;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)lib/FBX/lib/$(Configuration);$(SolutionDir)lib/freetype/lib/$(Configuration);$(SolutionDir)lib/glfw/lib;$(SolutionDir)lib/physX/lib/$(Configuration);$(SolutionDir)lib/Vulkan/lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)$(Configuration)\$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)Temp\$(Configuration)\$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)lib/FBX/include;$(SolutionDir)lib/freetype/include;$(SolutionDir)lib/glfw/include;$(SolutionDir)lib/physX/include;$(SolutionDir)lib/stb-master/include;$(SolutionDir)lib/Vulkan/include;$(ProjectDir)include/engine;$(ProjectDir)include/ww;$(ProjectDir)include/rhi;$(ProjectDir)include/utils;$(ProjectDir)include/maths;$(ProjectDir)include/rhi/vk;$(ProjectDir)include/game;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)lib/FBX/lib/$(Configuration);$(SolutionDir)lib/freetype/lib/$(Configuration);$(SolutionDir)lib/glfw/lib;$(SolutionDir)lib/physX/lib/$(Configuration);$(SolutionDir)lib/Vulkan/lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)$(Configuration)\$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)Temp\$(Configuration)\$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(SolutionDir)lib/FBX/include;$(SolutionDir)lib/freetype/include;$(SolutionDir)lib/glfw/include;$(SolutionDir)lib/physX/include;$(SolutionDir)lib/stb-master/include;$(SolutionDir)lib/Vulkan/include;$(ProjectDir)include/engine;$(ProjectDir)include/ww;$(ProjectDir)include/rhi;$(ProjectDir)include/utils;$(ProjectDir)include/maths;$(ProjectDir)include/rhi/vk;$(ProjectDir)include/game;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)lib/FBX/lib/$(Configuration);$(SolutionDir)lib/freetype/lib/$(Configuration);$(SolutionDir)lib/glfw/lib;$(SolutionDir)lib/physX/lib/$(Configuration);$(SolutionDir)lib/Vulkan/lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)$(Configuration)\$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)Temp\$(Configuration)\$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(SolutionDir)lib/FBX/include;$(SolutionDir)lib/freetype/include;$(SolutionDir)lib/glfw/include;$(SolutionDir)lib/physX/include;$(SolutionDir)lib/stb-master/include;$(SolutionDir)lib/Vulkan/include;$(ProjectDir)include/engine;$(ProjectDir)include/ww;$(ProjectDir)include/rhi;$(ProjectDir)include/utils;$(ProjectDir)include/maths;$(ProjectDir)include/rhi/vk;$(ProjectDir)include/game;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)lib/FBX/lib/$(Configuration);$(SolutionDir)lib/freetype/lib/$(Configuration);$(SolutionDir)lib/glfw/lib;$(SolutionDir)lib/physX/lib/$(Configuration);$(SolutionDir)lib/Vulkan/lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)$(Configuration)\$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)Temp\$(Configuration)\$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalDependencies>vulkan-1.lib;glfw3.lib;freetype.lib;libfbxsdk-md.lib;PhysX3Extensions.lib;PhysX3_x64.lib;PhysX3Common_x64.lib;PxFoundation_x64.lib;PxPvdSDK_x64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>vulkan-1.lib;glfw3.lib;freetype.lib;libfbxsdk-md.lib;PhysX3Extensions.lib;PhysX3_x64.lib;PhysX3Common_x64.lib;PxFoundation_x64.lib;PxPvdSDK_x64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>vulkan-1.lib;glfw3.lib;freetype.lib;libfbxsdk-md.lib;PhysX3Extensions.lib;PhysX3_x64.lib;PhysX3Common_x64.lib;PxFoundation_x64.lib;PxPvdSDK_x64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>vulkan-1.lib;glfw3.lib;freetype.lib;libfbxsdk-md.lib;PhysX3Extensions.lib;PhysX3_x64.lib;PhysX3Common_x64.lib;PxFoundation_x64.lib;PxPvdSDK_x64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\engine\anim\Animation.cpp" />
+    <ClCompile Include="src\engine\anim\AnimationInstance.cpp" />
+    <ClCompile Include="src\engine\anim\AnimVertex.cpp" />
+    <ClCompile Include="src\engine\anim\Blend2D.cpp" />
+    <ClCompile Include="src\engine\anim\ControlPoint.cpp" />
+    <ClCompile Include="src\engine\anim\Joint.cpp" />
+    <ClCompile Include="src\engine\anim\Keyframe.cpp" />
+    <ClCompile Include="src\engine\anim\Skeleton.cpp" />
+    <ClCompile Include="src\engine\anim\VertexBlendingInfo.cpp" />
+    <ClCompile Include="src\engine\Color.cpp" />
+    <ClCompile Include="src\engine\Engine.cpp" />
+    <ClCompile Include="src\engine\gizmo\GizmoHandler.cpp" />
+    <ClCompile Include="src\engine\gizmo\Grid.cpp" />
+    <ClCompile Include="src\engine\gizmo\Handle.cpp" />
+    <ClCompile Include="src\engine\gizmo\IGizmo.cpp" />
+    <ClCompile Include="src\engine\gizmo\ObjectPicker.cpp" />
+    <ClCompile Include="src\engine\gizmo\Selection.cpp" />
+    <ClCompile Include="src\engine\gizmo\Selector.cpp" />
+    <ClCompile Include="src\engine\gizmo\GizmoSprite.cpp" />
+    <ClCompile Include="src\engine\gizmo\Wireframe.cpp" />
+    <ClCompile Include="src\engine\gui\Char.cpp" />
+    <ClCompile Include="src\engine\gui\CWidget.cpp" />
+    <ClCompile Include="src\engine\gui\Font.cpp" />
+    <ClCompile Include="src\engine\gui\Glyph.cpp" />
+    <ClCompile Include="src\engine\gui\IElement.cpp" />
+    <ClCompile Include="src\engine\gui\Sprite.cpp" />
+    <ClCompile Include="src\engine\gui\Text.cpp" />
+    <ClCompile Include="src\engine\physic\CBoxCollider.cpp" />
+    <ClCompile Include="src\engine\physic\CCapsuleCollider.cpp" />
+    <ClCompile Include="src\engine\physic\CSphereCollider.cpp" />
+    <ClCompile Include="src\engine\physic\ICCollider.cpp" />
+    <ClCompile Include="src\engine\physic\PhysicsInstance.cpp" />
+    <ClCompile Include="src\engine\physic\Layer.cpp" />
+    <ClCompile Include="src\engine\physic\PhysicMaterial.cpp" />
+    <ClCompile Include="src\engine\physic\PhysXErrorCallback.cpp" />
+    <ClCompile Include="src\engine\physic\PhysXHelper.cpp" />
+    <ClCompile Include="src\engine\physic\PhysXSimulationCallback.cpp" />
+    <ClCompile Include="src\engine\physic\RayCast.cpp" />
+    <ClCompile Include="src\engine\resources\AssetsHandler.cpp" />
+    <ClCompile Include="src\engine\resources\LoaderFbx.cpp" />
+    <ClCompile Include="src\engine\resources\LoaderFont.cpp" />
+    <ClCompile Include="src\engine\resources\LoaderObj.cpp" />
+    <ClCompile Include="src\engine\resources\Model.cpp" />
+    <ClCompile Include="src\engine\resources\SkeletalModel.cpp" />
+    <ClCompile Include="src\engine\resources\Vertex.cpp" />
+    <ClCompile Include="src\engine\scene\ACamera.cpp" />
+    <ClCompile Include="src\engine\scene\Actor.cpp" />
+    <ClCompile Include="src\engine\scene\AEditorCamera.cpp" />
+    <ClCompile Include="src\engine\scene\AGameCamera.cpp" />
+    <ClCompile Include="src\engine\scene\ASkybox.cpp" />
+    <ClCompile Include="src\engine\scene\CameraHandler.cpp" />
+    <ClCompile Include="src\engine\scene\CCamera.cpp" />
+    <ClCompile Include="src\engine\scene\CDirectionalLight.cpp" />
+    <ClCompile Include="src\engine\scene\CPointLight.cpp" />
+    <ClCompile Include="src\engine\scene\CScript.cpp" />
+    <ClCompile Include="src\engine\scene\CSkeletalMesh.cpp" />
+    <ClCompile Include="src\engine\scene\CStaticMesh.cpp" />
+    <ClCompile Include="src\engine\scene\CTransform.cpp" />
+    <ClCompile Include="src\engine\scene\ICLight.cpp" />
+    <ClCompile Include="src\engine\scene\ICMesh.cpp" />
+    <ClCompile Include="src\engine\scene\IComponent.cpp" />
+    <ClCompile Include="src\engine\scene\LightHandler.cpp" />
+    <ClCompile Include="src\engine\scene\Scene.cpp" />
+    <ClCompile Include="src\engine\scene\SceneHandler.cpp" />
+    <ClCompile Include="src\game\Barrel.cpp" />
+    <ClCompile Include="src\game\CameraBehavior.cpp" />
+    <ClCompile Include="src\game\DeathZone.cpp" />
+    <ClCompile Include="src\game\Goal.cpp" />
+    <ClCompile Include="src\game\Light.cpp" />
+    <ClCompile Include="src\game\Player.cpp" />
+    <ClCompile Include="src\game\Project.cpp" />
+    <ClCompile Include="src\game\RenderSphere.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\rhi\common\ExtensionList.cpp" />
+    <ClCompile Include="src\rhi\common\LoaderImg.cpp" />
+    <ClCompile Include="src\rhi\common\Material.cpp" />
+    <ClCompile Include="src\rhi\common\Pipeline.cpp" />
+    <ClCompile Include="src\rhi\vk\AttachmentInfo.cpp" />
+    <ClCompile Include="src\rhi\vk\Buffer.cpp" />
+    <ClCompile Include="src\rhi\vk\Device.cpp" />
+    <ClCompile Include="src\rhi\vk\DrawCall.cpp" />
+    <ClCompile Include="src\rhi\vk\Fence.cpp" />
+    <ClCompile Include="src\rhi\vk\Framebuffer.cpp" />
+    <ClCompile Include="src\rhi\vk\FrameGraph.cpp" />
+    <ClCompile Include="src\rhi\vk\Image.cpp" />
+    <ClCompile Include="src\rhi\vk\InputAttachment.cpp" />
+    <ClCompile Include="src\rhi\vk\VkInstance.cpp" />
+    <ClCompile Include="src\rhi\vk\VkMaterial.cpp" />
+    <ClCompile Include="src\rhi\vk\MaterialInstance.cpp" />
+    <ClCompile Include="src\rhi\vk\MaterialLayout.cpp" />
+    <ClCompile Include="src\rhi\vk\MemoryAllocator.cpp" />
+    <ClCompile Include="src\rhi\vk\MemoryBlock.cpp" />
+    <ClCompile Include="src\rhi\vk\MemoryChunk.cpp" />
+    <ClCompile Include="src\rhi\vk\MemoryPool.cpp" />
+    <ClCompile Include="src\rhi\vk\Renderer.cpp" />
+    <ClCompile Include="src\rhi\vk\RenderPass.cpp" />
+    <ClCompile Include="src\rhi\vk\Shader.cpp" />
+    <ClCompile Include="src\rhi\vk\Subpass.cpp" />
+    <ClCompile Include="src\rhi\vk\Surface.cpp" />
+    <ClCompile Include="src\rhi\vk\SwapChain.cpp" />
+    <ClCompile Include="src\rhi\vk\Texture.cpp" />
+    <ClCompile Include="src\rhi\vk\VkHelper.cpp" />
+    <ClCompile Include="src\utils\FileOutput.cpp" />
+    <ClCompile Include="src\utils\ISerializable.cpp" />
+    <ClCompile Include="src\utils\JsonNode.cpp" />
+    <ClCompile Include="src\utils\LoggerLevel.cpp" />
+    <ClCompile Include="src\utils\ScriptModule.cpp" />
+    <ClCompile Include="src\utils\Service.cpp" />
+    <ClCompile Include="src\utils\ThreadPool.cpp" />
+    <ClCompile Include="src\utils\Timer.cpp" />
+    <ClCompile Include="src\ww\Controller.cpp" />
+    <ClCompile Include="src\ww\Cursor.cpp" />
+    <ClCompile Include="src\ww\Icon.cpp" />
+    <ClCompile Include="src\ww\Input.cpp" />
+    <ClCompile Include="src\ww\Key.cpp" />
+    <ClCompile Include="src\ww\Mouse.cpp" />
+    <ClCompile Include="src\ww\Viewport.cpp" />
+    <ClCompile Include="src\ww\Window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\engine\anim\Animation.h" />
+    <ClInclude Include="include\engine\anim\AnimationInstance.h" />
+    <ClInclude Include="include\engine\anim\AnimVertex.h" />
+    <ClInclude Include="include\engine\anim\Blend2D.h" />
+    <ClInclude Include="include\engine\anim\ControlPoint.h" />
+    <ClInclude Include="include\engine\anim\IAnimationInstance.h" />
+    <ClInclude Include="include\engine\anim\Joint.h" />
+    <ClInclude Include="include\engine\anim\Keyframe.h" />
+    <ClInclude Include="include\engine\anim\Skeleton.h" />
+    <ClInclude Include="include\engine\anim\VertexBlendingInfo.h" />
+    <ClInclude Include="include\engine\Color.h" />
+    <ClInclude Include="include\engine\Engine.h" />
+    <ClInclude Include="include\engine\gizmo\GizmoHandler.h" />
+    <ClInclude Include="include\engine\gizmo\Grid.h" />
+    <ClInclude Include="include\engine\gizmo\Handle.h" />
+    <ClInclude Include="include\engine\gizmo\IGizmo.h" />
+    <ClInclude Include="include\engine\gizmo\ObjectPicker.h" />
+    <ClInclude Include="include\engine\gizmo\Selection.h" />
+    <ClInclude Include="include\engine\gizmo\Selector.h" />
+    <ClInclude Include="include\engine\gizmo\Sprite.h" />
+    <ClInclude Include="include\engine\gizmo\Wireframe.h" />
+    <ClInclude Include="include\engine\gui\Char.h" />
+    <ClInclude Include="include\engine\gui\CWidget.h" />
+    <ClInclude Include="include\engine\gui\Font.h" />
+    <ClInclude Include="include\engine\gui\Glyph.h" />
+    <ClInclude Include="include\engine\gui\IElement.h" />
+    <ClInclude Include="include\engine\gui\Sprite.h" />
+    <ClInclude Include="include\engine\gui\Text.h" />
+    <ClInclude Include="include\engine\physic\CBoxCollider.h" />
+    <ClInclude Include="include\engine\physic\CCapsuleCollider.h" />
+    <ClInclude Include="include\engine\physic\CollisionData.h" />
+    <ClInclude Include="include\engine\physic\CSphereCollider.h" />
+    <ClInclude Include="include\engine\physic\ICCollider.h" />
+    <ClInclude Include="include\engine\physic\Instance.h" />
+    <ClInclude Include="include\engine\physic\Layer.h" />
+    <ClInclude Include="include\engine\physic\PhysicMaterial.h" />
+    <ClInclude Include="include\engine\physic\PhysXErrorCallback.h" />
+    <ClInclude Include="include\engine\physic\PhysXHelper.h" />
+    <ClInclude Include="include\engine\physic\PhysXSimulationCallback.h" />
+    <ClInclude Include="include\engine\physic\RayCast.h" />
+    <ClInclude Include="include\engine\resources\AssetsHandler.h" />
+    <ClInclude Include="include\engine\resources\IModel.h" />
+    <ClInclude Include="include\engine\resources\LoaderFbx.h" />
+    <ClInclude Include="include\engine\resources\LoaderFont.h" />
+    <ClInclude Include="include\engine\resources\LoaderObj.h" />
+    <ClInclude Include="include\engine\resources\Model.h" />
+    <ClInclude Include="include\engine\resources\SkeletalModel.h" />
+    <ClInclude Include="include\engine\resources\Vertex.h" />
+    <ClInclude Include="include\engine\scene\ACamera.h" />
+    <ClInclude Include="include\engine\scene\Actor.h" />
+    <ClInclude Include="include\engine\scene\AEditorCamera.h" />
+    <ClInclude Include="include\engine\scene\AGameCamera.h" />
+    <ClInclude Include="include\engine\scene\ASkybox.h" />
+    <ClInclude Include="include\engine\scene\CameraHandler.h" />
+    <ClInclude Include="include\engine\scene\CCamera.h" />
+    <ClInclude Include="include\engine\scene\CDirectionalLight.h" />
+    <ClInclude Include="include\engine\scene\CPointLight.h" />
+    <ClInclude Include="include\engine\scene\CScript.h" />
+    <ClInclude Include="include\engine\scene\CSkeletalMesh.h" />
+    <ClInclude Include="include\engine\scene\CStaticMesh.h" />
+    <ClInclude Include="include\engine\scene\CTransform.h" />
+    <ClInclude Include="include\engine\scene\ICLight.h" />
+    <ClInclude Include="include\engine\scene\ICMesh.h" />
+    <ClInclude Include="include\engine\scene\IComponent.h" />
+    <ClInclude Include="include\engine\scene\LightHandler.h" />
+    <ClInclude Include="include\engine\scene\Scene.h" />
+    <ClInclude Include="include\engine\scene\SceneHandler.h" />
+    <ClInclude Include="include\game\Barrel.h" />
+    <ClInclude Include="include\game\CameraBehavior.h" />
+    <ClInclude Include="include\game\DeathZone.h" />
+    <ClInclude Include="include\game\Goal.h" />
+    <ClInclude Include="include\game\Light.h" />
+    <ClInclude Include="include\game\Player.h" />
+    <ClInclude Include="include\game\Project.h" />
+    <ClInclude Include="include\game\RenderSphere.h" />
+    <ClInclude Include="include\maths\Helper.h" />
+    <ClInclude Include="include\maths\Mat3.h" />
+    <ClInclude Include="include\maths\Mat4.h" />
+    <ClInclude Include="include\maths\Quaternion.h" />
+    <ClInclude Include="include\maths\Transform.h" />
+    <ClInclude Include="include\maths\Vec2.h" />
+    <ClInclude Include="include\maths\Vec3.h" />
+    <ClInclude Include="include\maths\Vec4.h" />
+    <ClInclude Include="include\rhi\common\AttachmentDescription.h" />
+    <ClInclude Include="include\rhi\common\ExtensionList.h" />
+    <ClInclude Include="include\rhi\common\Format.h" />
+    <ClInclude Include="include\rhi\common\Image.h" />
+    <ClInclude Include="include\rhi\common\LoaderImg.h" />
+    <ClInclude Include="include\rhi\common\Logging.h" />
+    <ClInclude Include="include\rhi\common\Material.h" />
+    <ClInclude Include="include\rhi\common\Memory.h" />
+    <ClInclude Include="include\rhi\common\Pipeline.h" />
+    <ClInclude Include="include\rhi\vk\AttachmentInfo.h" />
+    <ClInclude Include="include\rhi\vk\Buffer.h" />
+    <ClInclude Include="include\rhi\vk\Device.h" />
+    <ClInclude Include="include\rhi\vk\DrawCall.h" />
+    <ClInclude Include="include\rhi\vk\Fence.h" />
+    <ClInclude Include="include\rhi\vk\Framebuffer.h" />
+    <ClInclude Include="include\rhi\vk\FrameGraph.h" />
+    <ClInclude Include="include\rhi\vk\IDescriptor.h" />
+    <ClInclude Include="include\rhi\vk\Image.h" />
+    <ClInclude Include="include\rhi\vk\InputAttachment.h" />
+    <ClInclude Include="include\rhi\vk\Instance.h" />
+    <ClInclude Include="include\rhi\vk\Material.h" />
+    <ClInclude Include="include\rhi\vk\MaterialInstance.h" />
+    <ClInclude Include="include\rhi\vk\MaterialLayout.h" />
+    <ClInclude Include="include\rhi\vk\MemoryAllocator.h" />
+    <ClInclude Include="include\rhi\vk\MemoryBlock.h" />
+    <ClInclude Include="include\rhi\vk\MemoryChunk.h" />
+    <ClInclude Include="include\rhi\vk\MemoryPool.h" />
+    <ClInclude Include="include\rhi\vk\Renderer.h" />
+    <ClInclude Include="include\rhi\vk\RenderPass.h" />
+    <ClInclude Include="include\rhi\vk\Shader.h" />
+    <ClInclude Include="include\rhi\vk\Subpass.h" />
+    <ClInclude Include="include\rhi\vk\Surface.h" />
+    <ClInclude Include="include\rhi\vk\SwapChain.h" />
+    <ClInclude Include="include\rhi\vk\Texture.h" />
+    <ClInclude Include="include\rhi\vk\VkHelper.h" />
+    <ClInclude Include="include\utils\Asset.h" />
+    <ClInclude Include="include\utils\Event.h" />
+    <ClInclude Include="include\utils\FileOutput.h" />
+    <ClInclude Include="include\utils\Flag.h" />
+    <ClInclude Include="include\utils\ISerializable.h" />
+    <ClInclude Include="include\utils\JsonNode.h" />
+    <ClInclude Include="include\utils\Logger.h" />
+    <ClInclude Include="include\utils\LoggerLevel.h" />
+    <ClInclude Include="include\utils\Logging.h" />
+    <ClInclude Include="include\utils\MetaMacros.h" />
+    <ClInclude Include="include\utils\NonCopyable.h" />
+    <ClInclude Include="include\utils\NullOutput.h" />
+    <ClInclude Include="include\utils\OutputLevelRunTimeSwitch.h" />
+    <ClInclude Include="include\utils\ScriptModule.h" />
+    <ClInclude Include="include\utils\Service.h" />
+    <ClInclude Include="include\utils\Singleton.h" />
+    <ClInclude Include="include\utils\StdOutput.h" />
+    <ClInclude Include="include\utils\ThreadPool.h" />
+    <ClInclude Include="include\utils\Timer.h" />
+    <ClInclude Include="include\ww\Controller.h" />
+    <ClInclude Include="include\ww\Cursor.h" />
+    <ClInclude Include="include\ww\Icon.h" />
+    <ClInclude Include="include\ww\Input.h" />
+    <ClInclude Include="include\ww\Key.h" />
+    <ClInclude Include="include\ww\Mouse.h" />
+    <ClInclude Include="include\ww\Viewport.h" />
+    <ClInclude Include="include\ww\Window.h" />
+    <ClInclude Include="include\ww\XboxConfig.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\engine\anim\AnimVertex.inl" />
+    <None Include="include\engine\gizmo\GizmoHandler.inl" />
+    <None Include="include\engine\gui\CWidget.inl" />
+    <None Include="include\engine\gui\IElement.inl" />
+    <None Include="include\engine\physic\ICCollider.inl" />
+    <None Include="include\engine\resources\Vertex.inl" />
+    <None Include="include\engine\scene\Actor.inl" />
+    <None Include="include\engine\scene\Scene.inl" />
+    <None Include="include\maths\Helper.inl" />
+    <None Include="include\maths\Mat3.inl" />
+    <None Include="include\maths\Mat4.inl" />
+    <None Include="include\maths\Quaternion.inl" />
+    <None Include="include\maths\Transform.inl" />
+    <None Include="include\maths\Vec2.inl" />
+    <None Include="include\maths\Vec3.inl" />
+    <None Include="include\maths\Vec4.inl" />
+    <None Include="include\rhi\common\AttachmentDescription.inl" />
+    <None Include="include\rhi\common\Format.inl" />
+    <None Include="include\rhi\common\Image.inl" />
+    <None Include="include\rhi\common\Material.inl" />
+    <None Include="include\rhi\common\Memory.inl" />
+    <None Include="include\rhi\common\Pipeline.inl" />
+    <None Include="include\rhi\vk\FrameGraph.inl" />
+    <None Include="include\rhi\vk\VkHelper.inl" />
+    <None Include="include\utils\Asset.inl" />
+    <None Include="include\utils\Event.inl" />
+    <None Include="include\utils\FileOutput.inl" />
+    <None Include="include\utils\ISerializable.inl" />
+    <None Include="include\utils\Logger.inl" />
+    <None Include="include\utils\LoggerLevel.inl" />
+    <None Include="include\utils\MetaMacros.inl" />
+    <None Include="include\utils\NullOutput.inl" />
+    <None Include="include\utils\OutputLevelRunTimeSwitch.inl" />
+    <None Include="include\utils\ScriptModule.inl" />
+    <None Include="include\utils\Service.inl" />
+    <None Include="include\utils\Singleton.inl" />
+    <None Include="include\utils\StdOutput.inl" />
+    <None Include="include\utils\ThreadPool.inl" />
+    <None Include="include\utils\Timer.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

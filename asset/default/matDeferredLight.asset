@@ -1,0 +1,101 @@
+{
+	"mGuid": 156634,
+	"type": 3054400567,
+	"mInfo": 	{
+		"type": 3831418135,
+		"mSubpassIndex": 1,
+		"mSortingOrder": 45,
+		"mShaders": [
+			{
+				"type": 2047948735,
+				"mPath": "data/shaders/compiled/postprocess.vert.spv",
+				"mShaderStage": 1
+			},
+			{
+				"type": 2047948735,
+				"mPath": "data/shaders/compiled/light.frag.spv",
+				"mShaderStage": 16
+			}
+		],
+		"mPipelineState": 		{
+			"mPolygonMode": 0,
+			"mDepthClampEnabled": false,
+			"type": 57232831,
+			"mTopology": 4,
+			"mBindings": [
+			],
+			"mPrimitiveRestartEnabled": false,
+			"mSampleState": 			{
+				"type": 438264683,
+				"mSampleCount": 1,
+				"mMinSampleShading": 1.000000,
+				"mSampleMaskEnabled": false,
+				"mSampleMask": 0
+			},
+			"mCullMode": 0,
+			"mDepthBias": 			{
+				"type": 1793050236,
+				"mClamp": 0.000000,
+				"mConstantFactor": 0.000000,
+				"mSlopeFactor": 0.000000
+			},
+			"mAlphaToCoverageEnabled": false,
+			"mAlphaToOneEnabled": false,
+			"mDepthTestEnabled": true,
+			"mDepthWriteEnabled": false,
+			"mDepthCompareOp": 5,
+			"mDepthBound": 			{
+				"type": 855341141,
+				"mMin": 0.000000,
+				"mMax": 1.000000
+			},
+			"mFrontStencil": 			{
+				"mReference": 0,
+				"type": 3407053627,
+				"mWriteMask": 0,
+				"mCompareMask": 0,
+				"mFailOp": 0,
+				"mPassOp": 0,
+				"mDepthFailOp": 0,
+				"mCompareOp": 0
+			},
+			"mBackStencil": 			{
+				"mReference": 0,
+				"type": 3407053627,
+				"mWriteMask": 0,
+				"mCompareMask": 0,
+				"mFailOp": 0,
+				"mPassOp": 0,
+				"mDepthFailOp": 0,
+				"mCompareOp": 0
+			},
+			"mLogicOp": 1,
+			"mColorBlend": 			{
+				"type": 713619822,
+				"mSrcFactor": 1,
+				"mBlendOp": 0,
+				"mDstFactor": 11
+			},
+			"mAlphaBlend": 			{
+				"type": 713619822,
+				"mSrcFactor": 0,
+				"mBlendOp": 0,
+				"mDstFactor": 1
+			},
+			"mColorMask": 15,
+			"mBlendConstants": 			{
+				"mG": 0.000000,
+				"type": 625440727,
+				"mB": 0.000000,
+				"mR": 0.000000,
+				"mA": 0.000000
+			}
+		}
+	},
+	"mMaterialLayout": 	{
+		"mGuid": 523159,
+		"type": 1180163387
+	},
+	"mTextures": [
+	]
+}

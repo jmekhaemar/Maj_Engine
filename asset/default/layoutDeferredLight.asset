@@ -1,0 +1,68 @@
+{
+	"mGuid": 523159,
+	"type": 3632328949,
+	"mMaxInstanceCount": 512,
+	"mSets": [
+		{
+			"key": 0,
+			"value": 			{
+				"type": 3951668178,
+				"mBindings": [
+					{
+						"key": 0,
+						"value": 						{
+							"type": 2370143457,
+							"mType": 2,
+							"mCount": 1,
+							"mShaderStage": 16
+						}
+					}
+					{
+						"key": 1,
+						"value": 						{
+							"type": 2370143457,
+							"mType": 2,
+							"mCount": 1,
+							"mShaderStage": 16
+						}
+					}
+					{
+						"key": 2,
+						"value": 						{
+							"type": 2370143457,
+							"mType": 2,
+							"mCount": 1,
+							"mShaderStage": 16
+						}
+					}
+					{
+						"key": 3,
+						"value": 						{
+							"type": 2370143457,
+							"mType": 2,
+							"mCount": 1,
+							"mShaderStage": 16
+						}
+					}
+				]
+			}
+		},
+		{
+			"key": 1,
+			"value": 			{
+				"type": 3951668178,
+				"mBindings": [
+					{
+						"key": 0,
+						"value": 						{
+							"type": 2370143457,
+							"mType": 4,
+							"mCount": 1,
+							"mShaderStage": 16
+						}
+					}
+				]
+			}
+		}
+	]
+}

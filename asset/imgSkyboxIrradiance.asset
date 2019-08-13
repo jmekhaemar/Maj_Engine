@@ -1,0 +1,17 @@
+{
+	"mGuid": 666354,
+	"type": 1453488171,
+	"mkPath": "data/textures/desert/irr/xp.png;data/textures/desert/irr/xn.png;data/textures/desert/irr/yp.png;data/textures/desert/irr/yn.png;data/textures/desert/irr/zp.png;data/textures/desert/irr/zn.png",
+	"mInfo": 	{
+		"mMipLevels": 1,
+		"type": 1511946446,
+		"mType": 3,
+		"mFormatComponent": 23,
+		"mSamples": 1,
+		"mFormatType": 0,
+		"mUsage": 261,
+		"mTiling": 0,
+		"mArrayLayers": 6,
+		"mMemory": 1
+	}
+}

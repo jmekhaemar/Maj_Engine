@@ -1,0 +1,41 @@
+{
+	"mGuid": 18636,
+	"type": 3632328949,
+	"mMaxInstanceCount": 2048,
+	"mSets": [
+		{
+			"key": 0,
+			"value": 			{
+				"type": 3951668178,
+				"mBindings": [
+					{
+						"key": 0,
+						"value": 						{
+							"type": 2370143457,
+							"mType": 4,
+							"mCount": 1,
+							"mShaderStage": 8
+						}
+					}
+				]
+			}
+		},
+		{
+			"key": 1,
+			"value": 			{
+				"type": 3951668178,
+				"mBindings": [
+					{
+						"key": 0,
+						"value": 						{
+							"type": 2370143457,
+							"mType": 4,
+							"mCount": 1,
+							"mShaderStage": 8
+						}
+					}
+				]
+			}
+		}
+	]
+}
